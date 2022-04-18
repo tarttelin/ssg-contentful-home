@@ -18,3 +18,6 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PYRUBY_WEB_HOME }}'
           channelId: live
           projectId: pyruby-web-home
+        env:
+          CONTENTFUL_ACCESS_TOKEN: '${{ secrets.CONTENTFUL_ACCESS_TOKEN }}'
+          CONTENTFUL_SPACE_ID: '${{ secrets.CONTENTFUL_SPACE_ID }}'
