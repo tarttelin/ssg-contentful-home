@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #008800;
+    --secondary-color: #c20404;
+    --blink-speed: 0.15s;
+}
+
+body {
+    background-color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
