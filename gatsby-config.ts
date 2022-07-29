@@ -8,6 +8,7 @@ const config: GatsbyConfig = {
     title: `PyRuby LTD`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  graphqlTypegen: true,
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {

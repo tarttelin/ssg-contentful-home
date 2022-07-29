@@ -15,10 +15,10 @@ const Section:React.FC<SectionProps> = ({ title, body }) => {
   if (!body) return null
 
   return (
-    <div>
+    <section>
         <Title>{title}</Title>
         <div dangerouslySetInnerHTML={{ __html: body}}/>
-    </div>
+    </section>
   )
 }
 
